@@ -22,6 +22,7 @@ export default gql`
     content: String!
     created_at: String!
     comments: [Comment!]!
+    user: User!
   }
 
   type Comment {

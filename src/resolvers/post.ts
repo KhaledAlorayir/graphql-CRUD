@@ -20,4 +20,14 @@ export default {
       .comments();
     return comments;
   },
+  user: async (parent: Post) => {
+    const user = await prisma.post
+      .findUnique({
+        where: {
+          id: parent.id,
+        },
+      })
+      .user();
+    return user;
+  },
 };
