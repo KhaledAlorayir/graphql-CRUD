@@ -1,6 +1,6 @@
-import { UserInputError } from "apollo-server";
-import { newPostInput, updatePostInput } from "../../Interfaces";
-import prisma from "../../PrismaClient";
+/* import { UserInputError } from "apollo-server";
+import { newPostInput, updatePostInput } from "../../shared/Interfaces";
+import prisma from "../../shared/PrismaClient";
 
 export default {
   addPost: async (_: any, args: newPostInput) => {
@@ -39,3 +39,4 @@ export default {
     return true;
   },
 };
+ */
